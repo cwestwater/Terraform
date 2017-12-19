@@ -1,6 +1,6 @@
 # Setup vSphere Provider and login
 provider "vsphere" {
-  user           = "a-cwestwater@corp.contoso.com"
+  user           = "user@corp.contoso.com"
   password       = "VMware1!"
   vsphere_server = "vcsa.corp.contoso.com"
 
