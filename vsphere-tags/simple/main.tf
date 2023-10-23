@@ -29,18 +29,18 @@ resource "vsphere_tag_category" "environment" {
 
 resource "vsphere_tag" "prod" {
   name        = "PROD"
-  category_id = "${vsphere_tag_category.environment.id}"
+  category_id = vsphere_tag_category.environment.id
   description = "Production VM"
 }
 
 resource "vsphere_tag" "test" {
   name        = "TEST"
-  category_id = "${vsphere_tag_category.environment.id}"
+  category_id = vsphere_tag_category.environment.id
   description = "Test VM"
 }
 
 resource "vsphere_tag" "dev" {
   name        = "DEV"
-  category_id = "${vsphere_tag_category.environment.id}"
+  category_id = vsphere_tag_category.environment.id
   description = "Development VM"
 }
