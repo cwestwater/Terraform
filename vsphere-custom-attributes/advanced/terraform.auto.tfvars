@@ -12,4 +12,9 @@ custom_attributes = {
     attribute_name = "Repo"
     attribute_type = "VirtualMachine"
   }
+
+  costcenter = {
+    attribute_name = "Cost Center"
+    attribute_type = "VirtualMachine"
+  }
 }

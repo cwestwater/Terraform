@@ -26,3 +26,8 @@ resource "vsphere_custom_attribute" "repo" {
   name                = "Repo"
   managed_object_type = "VirtualMachine"
 }
+
+resource "vsphere_custom_attribute" "cost_center" {
+  name                = "Cost Center"
+  managed_object_type = "VirtualMachine"
+}
